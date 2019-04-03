@@ -1,0 +1,2 @@
+class WorkplaceAccount < ApplicationRecord
+end
