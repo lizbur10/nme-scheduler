@@ -15,8 +15,8 @@ class CreateWorkplaceAccounts < ActiveRecord::Migration[5.2]
       t.string :hr_contact_phone
       t.string :hr_contact_email
       t.string :delivery_day
-      t.datetime :window_start_time
-      t.datetime :window_end_time
+      t.datetime :delivery_start_time
+      t.datetime :delivery_end_time
       t.text :special_instructions
 
       t.timestamps
